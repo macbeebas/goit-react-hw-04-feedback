@@ -1,0 +1,22 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
+.subtitle {
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+.info {
+  margin-bottom: 10px;
+  font-size: 20px;
+}

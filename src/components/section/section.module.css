@@ -1,0 +1,15 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
+.main {
+  margin: 10px auto;
+  border-bottom: 1px dotted grey;
+}
+.title {
+  font-size: calc(1.5 * var(--global-ratio));
+  border-bottom: 1px dashed grey;
+  margin: 20px;
+  padding: 10px;
+}

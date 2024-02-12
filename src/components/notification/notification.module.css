@@ -1,0 +1,9 @@
+:root {
+  /* variables */
+  --global-ratio: 1em; /* 1em = 32px */
+}
+
+.info {
+  margin-bottom: 10px;
+  font-size: calc(1.2 * var(--global-ratio));
+}
